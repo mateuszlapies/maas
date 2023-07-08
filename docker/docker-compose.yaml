@@ -1,0 +1,6 @@
+services:
+  kms:
+    build:
+      context: kms
+    ports:
+      - "1688:1688"
